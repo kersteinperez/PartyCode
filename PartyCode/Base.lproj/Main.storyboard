@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,33 +15,63 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Some fact here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3m-xc-bDA">
-                                <rect key="frame" x="20" y="114" width="335" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3m-xc-bDA">
+                                <rect key="frame" x="40" y="258" width="520" height="86"/>
+                                <string key="text">Software development is not a single skill but a system of skills. Specific development skills vary across platform type (Web, desktop, database), vendor (Microsoft, Apple, open source), etc.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibf-rF-X2D">
-                                <rect key="frame" x="97" y="446" width="180" height="30"/>
-                                <state key="normal" title="Show another fact"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibf-rF-X2D">
+                                <rect key="frame" x="40" y="486" width="520" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="f2d-l2-txR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" red="0.35294117650000001" green="0.73333333329999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Party On, Code"/>
                                 <connections>
                                     <action selector="showFunFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="tsV-f5-Wee"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="When it's time to party, we will party code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G36-Cy-zzR">
+                                <rect key="frame" x="40" y="94" width="337" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="G36-Cy-zzR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="74" id="39V-9l-zF9"/>
+                            <constraint firstItem="R3m-xc-bDA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="CNg-rX-IU5"/>
+                            <constraint firstItem="R3m-xc-bDA" firstAttribute="top" secondItem="G36-Cy-zzR" secondAttribute="bottom" constant="120" id="NrB-aG-5Cn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ibf-rF-X2D" secondAttribute="bottom" constant="80" id="Sfj-G0-ivv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ibf-rF-X2D" secondAttribute="trailing" constant="416" id="WUJ-6u-V1i"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="R3m-xc-bDA" secondAttribute="trailing" constant="20" id="Z1z-QT-lsL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ibf-rF-X2D" secondAttribute="trailing" constant="20" id="e5s-n2-zs6"/>
+                            <constraint firstItem="G36-Cy-zzR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="nVx-w0-Hmp"/>
+                            <constraint firstItem="R3m-xc-bDA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pGe-KB-VFj"/>
+                            <constraint firstItem="ibf-rF-X2D" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="tek-ad-LYk"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="NrB-aG-5Cn"/>
+                            </mask>
+                        </variation>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="funFactButton" destination="ibf-rF-X2D" id="xaP-Ko-Egt"/>
                         <outlet property="funFactLabel" destination="R3m-xc-bDA" id="nXC-sQ-und"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="439.5" y="356.5"/>
+            <point key="canvasLocation" x="439" y="356"/>
         </scene>
     </scenes>
 </document>

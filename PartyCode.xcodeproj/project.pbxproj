@@ -13,6 +13,7 @@
 		CC7F9B881C1A26F200DD1561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7F9B871C1A26F200DD1561 /* Assets.xcassets */; };
 		CC7F9B8B1C1A26F200DD1561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7F9B891C1A26F200DD1561 /* LaunchScreen.storyboard */; };
 		CC7F9B931C1B1A7A00DD1561 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F9B921C1B1A7900DD1561 /* FactModel.swift */; };
+		CC7F9B951C1D318900DD1561 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7F9B941C1D318900DD1561 /* ColorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CC7F9B8A1C1A26F200DD1561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC7F9B8C1C1A26F200DD1561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC7F9B921C1B1A7900DD1561 /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		CC7F9B941C1D318900DD1561 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CC7F9B871C1A26F200DD1561 /* Assets.xcassets */,
 				CC7F9B891C1A26F200DD1561 /* LaunchScreen.storyboard */,
 				CC7F9B8C1C1A26F200DD1561 /* Info.plist */,
+				CC7F9B941C1D318900DD1561 /* ColorModel.swift */,
 			);
 			path = PartyCode;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				CC7F9B931C1B1A7A00DD1561 /* FactModel.swift in Sources */,
 				CC7F9B831C1A26F200DD1561 /* ViewController.swift in Sources */,
 				CC7F9B811C1A26F200DD1561 /* AppDelegate.swift in Sources */,
+				CC7F9B951C1D318900DD1561 /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				CC7F9B911C1A26F200DD1561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
