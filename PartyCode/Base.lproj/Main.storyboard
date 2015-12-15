@@ -44,13 +44,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="G36-Cy-zzR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="74" id="39V-9l-zF9"/>
                             <constraint firstItem="R3m-xc-bDA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="CNg-rX-IU5"/>
                             <constraint firstItem="ibf-rF-X2D" firstAttribute="leading" secondItem="R3m-xc-bDA" secondAttribute="leading" id="K7V-hL-kA3"/>
                             <constraint firstItem="R3m-xc-bDA" firstAttribute="top" secondItem="G36-Cy-zzR" secondAttribute="bottom" constant="120" id="NrB-aG-5Cn"/>
+                            <constraint firstItem="G36-Cy-zzR" firstAttribute="leading" secondItem="R3m-xc-bDA" secondAttribute="leading" id="WUj-jm-Ydq"/>
+                            <constraint firstItem="G36-Cy-zzR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="74" id="Z0i-Ix-DYG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="R3m-xc-bDA" secondAttribute="trailing" constant="20" id="Z1z-QT-lsL"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ibf-rF-X2D" secondAttribute="bottom" constant="80" id="mar-yw-CVr"/>
-                            <constraint firstItem="G36-Cy-zzR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="nVx-w0-Hmp"/>
                             <constraint firstItem="R3m-xc-bDA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pGe-KB-VFj"/>
                             <constraint firstItem="ibf-rF-X2D" firstAttribute="trailing" secondItem="R3m-xc-bDA" secondAttribute="trailing" id="y3V-S3-n4E"/>
                         </constraints>
