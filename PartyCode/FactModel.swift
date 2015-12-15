@@ -21,14 +21,14 @@ struct FactModel{
         "The average number of people at a Super Bowl party is 17.",
         "40% of all people who come to a party in your home snoop in your medicine cabinet.",
         "The Rhinoceros Party of Canada recieved 1.01% of the popular vote in the 1980 federal election, campaigning to repeal the law of gravity and provide higher education by building taller schools.",
-        "The first draft of the movie, Animal House was entitled Laser Orgy Girls, and was about the cult leader and murderer in high school. The script was immediately rejected.",
+        "The first draft of the movie, Animal House, was originally about Charles Manson. The script was immediately rejected.",
         "Perl is sometimes known as the Swiss-Army knife of programming languages because of it’s multi-functionality.",
         "A keg can serve 141 red cups of beer.",
-        "Party in the U.S.A. was originally intended for Jessie J, but after deciding it was not edgy enough for her, they passed it to Cyrus and adjusted the lyrics to fit her persona.",
+        "Party in the U.S.A. was originally intended for Jessie J, but after deciding it was not edgy enough for her, they passed it to Miley Cyrus and adjusted the lyrics to fit her persona.",
         "Swift is supposed to combine the best parts of C and Objective C without compatibility constraints and provides new features.",
         "Swift can be used for products with iOS7 and OSX 10.9 and higher.",
         "Software development is not a single skill but a system of skills. Specific development skills vary across platform type (Web, desktop, database), vendor (Microsoft, Apple, open source), etc.",
-        "Sergey Brin and Larry Page didn’t know much about HTML. The first homepage had very bare bones design. Test users were actually waiting for the rest of the page to load.",
+        "Google's Sergey Brin and Larry Page didn’t know much about HTML. The first homepage had very bare bones design. Test users were actually waiting for the rest of the page to load.",
         "The original Apple logo had Isaac Newton sitting under an apple tree."]
 
     func getRandomFact() -> String {
