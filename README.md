@@ -12,6 +12,7 @@ Open app in xcode, run on simulator or plugged in device. Launch screen will app
 - swift v. 2.1.1
 - xcode v. 7.2
 - ios 9.2
+- GameKit framework
 
 ##Approach
 Without any experience developing in swift, I used psuedo code first. Planning a random fact generator, I realized I would need certain functions and features. I knew I'd need a button with an on-click function, an array to pull facts, and randomly rendered background colors -- I used the documentation, tutorials and youtube videos to learn how to do so in xcode and swift.
