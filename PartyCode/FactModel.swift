@@ -10,6 +10,7 @@ import GameKit
 
 struct FactModel{
     let facts = [
+        "Andrew W.K. was invited — then cancelled — as the U.S. ambassador of Partying to Bahrain.",
         "About 25% of the hours spent writing an application are spent figuring out ways the end user will do something wrong. – Brian Humes",
         "Programming is thinking, not typing. – Casey Patton",
         "Ada Lovelace credited with first computer programming language; wrote an algorithm for the Analytical Engine (early mechanical computer).",
@@ -21,7 +22,6 @@ struct FactModel{
         "The average number of people at a Super Bowl party is 17.",
         "40% of all people who come to a party in your home snoop in your medicine cabinet.",
         "The Rhinoceros Party of Canada recieved 1.01% of the popular vote in the 1980 federal election, campaigning to repeal the law of gravity and provide higher education by building taller schools.",
-        "The first draft of the movie, Animal House, was originally about Charles Manson. The script was immediately rejected.",
         "Perl is sometimes known as the Swiss-Army knife of programming languages because of it’s multi-functionality.",
         "A keg can serve 141 red cups of beer.",
         "Party in the U.S.A. was originally intended for Jessie J, but after deciding it was not edgy enough for her, they passed it to Miley Cyrus and adjusted the lyrics to fit her persona.",
